@@ -1,0 +1,37 @@
+.selector {
+  align-self: center;
+  display: flex;
+  align-items: stretch;
+  box-sizing: border-box;
+  width: 133px;
+  height: 43px;
+  overflow: hidden;
+  border: 1.5px solid #0ea5e9;
+  border-radius: 14px;
+}
+
+.control {
+  flex: 1;
+  border: none;
+  background: #ffffff;
+  color: #0ea5e9;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.control:disabled {
+  color: #7dd3fc;
+  cursor: not-allowed;
+}
+
+.value {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1.5px solid #0ea5e9;
+  border-right: 1.5px solid #0ea5e9;
+  color: #111827;
+  font-weight: 600;
+}
